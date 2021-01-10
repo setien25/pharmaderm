@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pharma derm</title>
+	<link rel="icon" href="img/logo.jpg">
+</head>
+<body>
+<!--header element-->
+	<header>
+	<img src="img/logo.jpg">
+	<h1>pharma derm</h1>	
+	</header>
+
+<!-- main element -->
+<main>
+	<h2> Sobre nosotros</h2>
+<p>Farmacia dermatologica ubicada en san juan del rio</p>
+<img src="">
+<p>Neotrex 20mg</p>
+<!-- Productos -->
+<H2>CATEGORIAS DE PRODUCTOS</H2>
+<ul>
+	<li><a href="https://www.sephora.com.mx/categories/cabello">Cabello</a></li>
+	<li><a href="https://es.wikipedia.org/wiki/Piel#:~:text=La%20piel%20consta%20de%20dos,nerviosas%20y%20el%20tejido%20conectivo.">Piel</a></li>
+	<li><a href="https://www.pinterest.com.mx/chikatanita/mi-estilo-de-u%C3%B1as/">Uñas</a></li>
+</ul>
+<!-- Contactos -->
+<H2>CONTACTANOS!</H2>
+<ol>
+	<li>ig: pharmadermsjr</li>
+	<li>fb: pharmaderm</li>
+	<li>427 1</li>
+</ol>
+</main>
+
+<!-- footer -->
+<footer>
+	<p>Pagina oficial pharmaderm &copy; Pepe</p>
+</footer>
+</body>
+</html>
