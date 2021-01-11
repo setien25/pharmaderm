@@ -1,7 +1,47 @@
 body{
 	margin: 0;
+	font-family: Century Gothic;
 }
 
 header{
 	background-color: #b3d9da;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+header h1{
+	color: #0074b5;
+	font-family: Century Gothic;
+	text-align: center;
+	font-size: 35px;
+}
+header h2{
+	color: #6fc200;
+	font-family: Century Gothic;
+	text-align: right;
+	font-size: 35px;
+
+}
+main{
+max-width: 800px;
+margin: 0 auto;
+padding: 0 20px 
+}
+
+
+a{
+	color: #6fc200;
+	font-size: 25px
+
+}
+a:hover{
+	color: #0074b5;
+}
+
+footer{
+	background-color: #b3d9da;
+	text-align: left;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0;
 }
