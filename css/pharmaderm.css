@@ -1,11 +1,3 @@
-head{
-	background: #10405b;
-}
-
-
-
-
-
 body{
 	margin: 0;
 	
@@ -14,7 +6,7 @@ body{
 }
 body{
 	font-family:'Roboto', sans-serif;
-	background: #cdf0f9;
+	background: radial-gradient(#fff,#cdf0f9);
 }
 
 
@@ -83,7 +75,7 @@ p{
 	background: #6fc200
 }
 .header{
-	
+	background: radial-gradient(#fff,#cdf0f9);
 }
 .header .row{
 margin-top: 70px;
