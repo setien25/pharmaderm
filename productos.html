@@ -1,33 +1,110 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>pharmaderm productos</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Productos|pharmaderm</title>
 	<link rel="icon" href="img/logo-pequeno.png">
 	<link rel="stylesheet" type="text/css" href="css/pharmaderm.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<!--header element-->
-	<header>
-	<a href="https://setien25.github.io/pharmaderm/"><img src="img/logo.png"></a>
-<a href="https://setien25.github.io/pharmaderm/"><h1>Productos </h1> </a>
-<a href="https://setien25.github.io/pharmaderm/"><h1> Carrito<img src="img/carrito.png"></h1> </a>
-	</header>
-
-<main>
+<div class="header">
+	<div class="container">
+		<div class="navbar">
+			<div class="logo">
+				<img src="img/logo.png" width="125px">
+			</div>
+			<nav>
+				<ul id="MenuItems">
+					<li><a href="">Productos</a></li>
+					<li><a href="">Sobre nosotros</a></li>
+					<li><a href="">Cuenta</a></li>
+					<li><a href="">Carrito</a></li>
+				</ul>
+			</nav>
+			<img src="img/carrito.png" width="30px" height="30px">
+			<img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+		</div>
 	
-<!-- Productos -->
-<h2>CATEGORIAS DE PRODUCTOS</h2>
-<ul>
-	<li><a href="https://www.sephora.com.mx/categories/cabello">Cabello</a></li>
-	<li><a href="https://es.wikipedia.org/wiki/Piel#:~:text=La%20piel%20consta%20de%20dos,nerviosas%20y%20el%20tejido%20conectivo.">Piel</a></li>
-	<li><a href="https://www.pinterest.com.mx/chikatanita/mi-estilo-de-u%C3%B1as/">Uñas</a></li>
-</ul>
+	</div>
+</div>
 
-</main>
 
-<!-- footer -->
-<footer>
-	<p>Pagina oficial pharmaderm &copy; Pepe</p>
-</footer>
+<!--featured products-->
+<div class="small-container">
+	<h2 class="title">PRODUCTOS</h2>
+<div class="row">
+	<div class="col-4">
+		<img src="img/neotrex.png">
+		<h4>Neotrex 20mg</h4>
+		<p>$680</p>
+	</div>
+	<div class="col-4">
+		<img src="img/seslash.png">
+		<h4>Seslash</h4>
+		<p>$560</p>
+	</div>
+	<div class="col-4">
+		<img src="img/cleanance.png">
+		<h4>Cleanance Gel 400ml</h4>
+		<p>$410</p>
+	</div>
+	<div class="col-4">
+		<img src="img/fusionwater.png">
+		<h4>Isdin Fusion Water</h4>
+		<p>$480</p>
+	</div>
+	<div class="col-4">
+		<img src="img/shaka.png">
+		<h4>Anthelios Shaka</h4>
+		<p>$412</p>
+	</div>
+	<div class="col-4">
+		<img src="img/optigel.png">
+		<h4>Optigel Contorno Ocular</h4>
+		<p>$695</p>
+	</div>
+</div>
+</div>
+<!--Footer-->
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-1">
+				<h3>Siguenos en nuestras redes sociales!</h3>
+				<p>Instagram: https://www.instagram.com/pharmadermsjr/</p>
+				<p>Facebook: https://www.facebook.com/Pharma-Derm-100833015262884/</p>
+
+			</div>
+			<div class="footer-col-2">
+				<p>Los mejores precios en medicinas dermatologicas!</p>
+			</div>
+
+		</div>
+	</div>
+	
+</div>
+
+<script>
+	var MenuItems = document.getElementById("MenuItems");
+
+	MenuItems.style.maxHeight = "0px";
+
+	function menutoggle(){
+		if(MenuItems.style.maxHeight == "0px")
+		{
+			MenuItems.style.maxHeight = "200px";
+		}
+		else
+		{
+			MenuItems.style.maxHeight = "0px";
+		}
+	}
+
+</script>
+
+
 </body>
 </html>
